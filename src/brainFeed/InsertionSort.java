@@ -42,5 +42,5 @@ class InsertionSort {
 
 		printArray(arr); 
 	} 
-} /* This code is contributed by Rajat Mishra. */
+} /* This code is contributed by Michael Gathogo. */
 
