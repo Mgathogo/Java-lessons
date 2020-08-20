@@ -48,11 +48,18 @@ public class Contact {
 
    
 
-public void viewContacts() {
+public void singleContact() {
+	System.out.println("Single Contact result:\n");
 System.out.println(this.getName());
 System.out.println(this.getAddress());
 System.out.println(this.getEmail());
-System.out.println(this.getPhone());
+System.out.println(this.getPhone()+"\n");
 
+}
+
+@Override
+public String toString() {
+	return "Contact [name:" + name + ", address:" + 
+address + ", email:" + email + ", phone:" + phone + "]";
 }
 }

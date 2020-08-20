@@ -3,7 +3,7 @@ package brainFeed;
 public class ByteReverse {
 
 	public static void main(String[] args) {
-		String str = "leahciM-lufsseccuS & desselB";
+		String str = "!!!leahciM-lufsseccuS & desselB";
 		String str1 = "!si ti retniw dloc";
 		System.out.println(reverseByte(str));
 		System.out.println(reverseByte(str1));

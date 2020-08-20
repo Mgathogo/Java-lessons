@@ -1,5 +1,9 @@
 package brainFeed;
 
+import java.lang.reflect.Array;
+import java.util.*;
+import java.util.stream.IntStream; 
+
 //Java program for implementation of Insertion Sort 
 class InsertionSort { 
 	/*Function to sort array using insertion sort*/
@@ -23,20 +27,26 @@ class InsertionSort {
 	} 
 
 	/* A utility function to print array of size n*/
-	static void printArray(int arr[]) {
-	 
-		int n = arr.length; 
-		for (int i = 0; i < n; ++i) 
-			System.out.print(arr[i] + ", "); 
+	static  void printArray(int arr[]) {
+		
+		
+		try {
+			
+			int n = arr.length; 
+			for (int i = 0; i < n; ++i) 
+				System.out.print(arr[i] + " "); 
 
-		System.out.println(); 
+			System.out.println();
+		} catch (NullPointerException e) { 
+            System.out.println("Exception thrown : " + e);
+		} 
 	} 
 
 	// Driver method 
 	public static void main(String args[]) 
 	{ 
 		int arr[] = { 12, 11, 13, 5, 6 }; 
-
+		
 		InsertionSort ob = new InsertionSort(); 
 		ob.sort(arr); 
 
