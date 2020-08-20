@@ -29,4 +29,4 @@ class AbsoluteDiff {
 		System.out.print(maxAbsDiff(arr, n)); 
 	} 
 } 
-
+//code provided by Michael Gathogo
