@@ -22,10 +22,10 @@ public class AsList {
 
 	public static List<Integer> getList() {
 		// creating Arrays of Integer type 
-		Integer arr[] = new Integer[] { 10, 20, 30, 40 }; 
+		Integer a[] = new Integer[] { 10, 20, 30, 40 }; 
   
 		// getting the list view of Array 
-		List<Integer> list = Arrays.asList(arr); 
+		List<Integer> list = Arrays.asList(a); 
   
 		// printing the list 
 		

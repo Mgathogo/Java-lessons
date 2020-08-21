@@ -2,7 +2,7 @@ package brainFeed;
 
 import java.util.HashMap;
 
-//Pulling data from HashMapData class to run this main method
+//get data from HashMapData class to run this main method
 //The class to check even or odd is modular and can be run in a diff class
 
 public class CollectionsPractice {

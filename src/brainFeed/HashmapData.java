@@ -21,7 +21,7 @@ public class HashmapData {
 		return map;
 	}
 	public static int maximum(HashMap<Integer,String> hashMap) {
-	  new HashMap<>();
+		  new HashMap<>();
       hashMap.put(1, "apple");
       hashMap.put(67, "banana");
       hashMap.put(46, "orange");

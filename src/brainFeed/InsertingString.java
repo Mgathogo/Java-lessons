@@ -32,7 +32,7 @@ public class InsertingString {
 
 	public static void main(String[] args) {
 		// Get the Strings 
-        String originalString = "MasaiMara"; 
+        String originalString = "GeeksGeeks"; 
         String stringToBeInserted = "For"; 
         int index = 4; 
   

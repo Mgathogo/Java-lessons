@@ -4,23 +4,20 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.IntStream;
 
 public class AplayGround {
 	 
 	public static void main(String[] args) throws InterruptedException {
-		String [] fruitArray = {"\nApple", "banana","oranges", "watermelon", "eggs","pizza"};
+		String [] fruitArray = {"\nApple", "banana","oranges", "watermelon", "eggs"};
 
 		for(String fruit:fruitArray) {
-			Thread.sleep(1000);
-			if(fruit =="eggs" || fruit =="pizza") continue;
+			Thread.sleep(3000);
+			if(fruit =="eggs") continue;
 			
 			System.out.println(fruit);
 			
 		}
-		System.out.println("\nskipped out non-fruit choice\n");
-		
-		
+		System.out.println("\nskipped out non-fruit choice");
 		
 		
 		

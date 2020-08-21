@@ -2,13 +2,13 @@ package brainFeed;
 
 import java.util.Stack;
 import java.util.StringTokenizer;
-//last in last out LIFO
+
 public class StringAtokenizer {
 
 	public static void main(String[] args) {
 		StringBuilder reverseString = tokenizerMethod();
 		 
-		System.out.println("\n"+reverseString.toString());
+		System.out.println(reverseString.toString());
 
 	}
 
