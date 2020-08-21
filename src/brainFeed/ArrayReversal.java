@@ -27,3 +27,4 @@ public class ArrayReversal {
 	}
 
 }
+// code contributed by Michael Gathogo
