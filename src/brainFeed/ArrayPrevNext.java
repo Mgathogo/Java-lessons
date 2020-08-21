@@ -28,5 +28,5 @@ public static void main(String[] args)
 } 
 } 
 
-//This code is contributed by Prerna Saini 
+//This code is contributed by Michael Gathogo 
 
