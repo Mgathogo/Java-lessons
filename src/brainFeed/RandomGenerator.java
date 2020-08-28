@@ -13,7 +13,7 @@ public class RandomGenerator {
 	public void luckyNumber() throws InterruptedException {
 		Random objGenerator = new Random();
         for (int iCount = 1; iCount<= 5; ++iCount){
-          int randomNumber = objGenerator.nextInt(71)+1;
+          int randomNumber = objGenerator.nextInt(35)+1;
           //if(randomNumber==randomNumber) break;
           Thread.sleep(1000);
          

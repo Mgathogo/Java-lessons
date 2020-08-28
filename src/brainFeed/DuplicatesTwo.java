@@ -17,7 +17,7 @@ public class DuplicatesTwo
 	} 
 	// function to find and print duplicates 
 	private static void printDuplicates(int[] arr, int n) {
-	 
+	
 		Map<Integer,Integer> map = new HashMap<>(); 
 		int count; 
 		boolean dup = false; 
@@ -37,9 +37,12 @@ public class DuplicatesTwo
 			// if frequency is more than 1 
 			// print the element 
 			if(entry.getValue() > 1){ 
+				
 				System.out.print(entry.getKey()+ " "); 
 				dup = true; 
+				
 			} 
+			
 		} 
 		// no duplicates present 
 		if(!dup){ 

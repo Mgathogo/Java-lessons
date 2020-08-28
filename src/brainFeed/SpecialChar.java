@@ -45,5 +45,5 @@ class SpecialChar
 	} 
 } 
 
-//This code is contributed by panwarabhishek345 
+//This code is contributed by Michael Gathogo 
 
