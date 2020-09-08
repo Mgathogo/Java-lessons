@@ -6,8 +6,10 @@ import java.io.StringReader;
 import java.io.StringWriter;
 
 public class TryWithResources {
-
+ 
 	public static void main(String[] args) {
+		System.out.println();
+		//auto-closable try with resources
 		try(BufferedReader reader = new BufferedReader(new StringReader("Hello Michael Keep on improving and growing, this is awesome!"));
 				StringWriter writer = new StringWriter();) {
 			

@@ -13,11 +13,13 @@ public class SetArraysList {
 
 	}
 
-	public static void filteredElements(List<Integer> myArr) {
+	public static Set<Integer> filteredElements(List<Integer> myArr) {
 		Set<Integer> hashsetList = new HashSet<>(myArr);
 		//System.out.printf("\nUnique value using Hashset: %s%n",hashsetList );
 		System.out.println("\n"+hashsetList);
+		return hashsetList;
 	}
+	
 
 }
 
