@@ -25,6 +25,7 @@ public class DuplicatesTwo
 			if(map.containsKey(arr[i])){ 
 				//System.out.println(map.containsKey(arr[i]));
 				count = map.get(arr[i]); 
+				//System.out.println(count);
 				map.put(arr[i], ++count ); 
 			} 
 			else{ 

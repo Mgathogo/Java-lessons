@@ -1,5 +1,5 @@
 package brainFeed;
-
+//java program to count a specific character
 public class CountAlphabet {
 
 	public static void main(String[] args) {

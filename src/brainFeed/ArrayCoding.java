@@ -38,5 +38,5 @@ public class ArrayCoding {
 		System.out.println(findElement(arr, n)); 
 	} 
 } 
-//This code is contributed by Sumit Ghosh 
+//This code is contributed by Michael Gathogo 
 

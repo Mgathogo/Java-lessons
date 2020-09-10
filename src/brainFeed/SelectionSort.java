@@ -15,14 +15,8 @@ class SelectionSort
 			for (int j = i+1; j < n; ++j)//J starts at index 1 all the way to the last element 
 				if (arr[j] < arr[min_idx])
 					min_idx = j; 
-			//System.out.println("min_index is "+min_idx);
-
-			// Swap the found minimum element with the first 
-			// element. A new loop starts and i is back to zero and the comparison starts
-			//variable min_indx is just for allocating i as the mean index before finding actual mean index
-			//when you find it, you assign the actual mean index. The smallest value in the array, it's index
-			//becomes the least index and it is assigned the title of min_idx, then it is legible to be moved
-			//to the correct position
+			//the inner loop checks for the minimum index all the way to the end, then it swaps with the current min index
+			//then i is incremented, then the inner loop starts again and the whole process starts again until i reaches n-1
 			int temp = arr[min_idx]; 
 			arr[min_idx] = arr[i]; 
 			arr[i] = temp; 

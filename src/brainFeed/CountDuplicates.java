@@ -32,11 +32,11 @@ public class CountDuplicates {
 
 	// Driver Method
 	public static void main(String[] args) {
-		System.out.println("\nTest String Count:\n");
+		System.out.println("Test String Count:\n");
 		String str = "test string!!!!!!!!!+++++++++++++"; 
 		String str1 = "Assessment test";
 		printDups(str);
-		System.out.println("Assessment test count");
+		System.out.println("\nAssessment test count");
 		printDups(str1);
 	}
 

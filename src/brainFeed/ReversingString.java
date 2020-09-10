@@ -16,7 +16,7 @@ public class ReversingString {
 		// limit) with small limit. 
 		 
 			System.out.println("****************************************************");
-				String str1 = "geekss@for@geekss"; 
+				String str1 = "black@for@mamba"; 
 				String[] arrOfStr = str1.split("@", 3); 
 
 				for (String a : arrOfStr) {

@@ -3,7 +3,7 @@ package brainFeed;
 public class AplayGround {
 	 
 	public static void main(String[] args) throws InterruptedException {
-		String [] fruitArray = {"\nApple", "banana","oranges", "watermelon", "eggs", "pizza"};
+		String [] fruitArray = {"Apple", "banana","oranges", "watermelon", "eggs", "pizza"};
 
 		for(String fruit:fruitArray) {
 			Thread.sleep(1000);
@@ -13,7 +13,7 @@ public class AplayGround {
 			
 		}
 		System.out.println("\nskipped out non-fruit choice");
-		System.out.println("Michael");
+		System.out.println("\nneuro transmitters in the making");
 		
 		
 		
