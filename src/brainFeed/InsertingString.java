@@ -32,8 +32,8 @@ public class InsertingString {
 
 	public static void main(String[] args) {
 		// Get the Strings 
-        String originalString = "GeeksGeeks"; 
-        String stringToBeInserted = "For"; 
+        String originalString = "MasaiShujaa"; 
+        String stringToBeInserted = "Mara"; 
         int index = 4; 
   
         System.out.println("\nOriginal String: "

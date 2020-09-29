@@ -7,8 +7,8 @@ class BubbleSort
 	static void bubbleSort(int arr[]) {
 		int n = arr.length; 
 		for (int i = 0; i < n-1; i++)//general direction of i to the right, no curly braces 
-			for (int j = 0; j < n-i-1; j++) //Highest number pushed to the right, then process repeats again
-				if (arr[j] > arr[j+1]) {
+			for (int j = 0; j < n-i-1; j++) //Highest number pushed to the right until the end, then process repeats again
+				if (arr[j] > arr[j+1]) {    //The highest number is in the last position so n-i-j for a new length
 				 
 					// swap arr[j+1] and arr[i] 
 					int temp = arr[j]; 

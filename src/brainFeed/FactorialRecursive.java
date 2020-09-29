@@ -9,7 +9,7 @@ public class FactorialRecursive {
 		return  n * factorial(n-1);
 	}
 	public static void main (String[]args) {
-		System.out.println("Ternary if statement: "+factorialRecursive(2));
+		System.out.println("Ternary if statement: "+factorialRecursive(3));
 		System.out.println("Regular if statement: " +factorial(7));
 	}
 	

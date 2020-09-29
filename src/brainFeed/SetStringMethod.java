@@ -7,7 +7,7 @@ public class SetStringMethod {
     { 
   
         // Declaring and defining a String array 
-        String s[] = { "Geeks", "is", "Geeks" }; 
+        String s[] = { "Black", "lives", "Matter!" }; 
   
         System.out.print("\nBefor Set : "); 
         // printing the array 
@@ -16,7 +16,7 @@ public class SetStringMethod {
         } 
   
         // set method of class Array 
-        Array.set(s, 1, "for"); 
+        Array.set(s, 1, "-lives-"); 
   
         System.out.print("\nAfter Set : "); 
         // printing array 

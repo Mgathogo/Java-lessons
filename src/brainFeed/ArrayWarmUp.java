@@ -13,7 +13,7 @@ public class ArrayWarmUp {
 
 	public static void main(String[] args) {
 		ArrayWarmUp awu = new ArrayWarmUp();
-		String result = awu.everyNth("Michaejgjgkgkjgl", 2);
+		String result = awu.everyNth("FiuhjeigAgpgpjlle", 2);
 		System.out.println(result);
 
 	}

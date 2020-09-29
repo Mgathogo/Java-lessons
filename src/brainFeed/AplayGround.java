@@ -13,7 +13,7 @@ public class AplayGround {
 			
 		}
 		System.out.println("\nskipped out non-fruit choice");
-		System.out.println("\nneuro transmitters in the making");
+		System.out.println("\nneuro transmitters manufacturing and rewiring of the brain");
 		
 		
 		

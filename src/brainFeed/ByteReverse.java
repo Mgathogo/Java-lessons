@@ -13,7 +13,7 @@ public class ByteReverse {
 		byte [] strArr =str.getBytes();
 		byte [] results = new byte[str.length()];
 		for(int i=0; i<strArr.length; i++) {
-			results[i] = strArr[strArr.length-i-1];//The minus i is for moving elements from left 
+			results[i] = strArr[strArr.length-i-1];//The minus i and 1 is for targeting the last element and moving to left
 		}
 		return new String(results);
 	}

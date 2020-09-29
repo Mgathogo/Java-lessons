@@ -24,8 +24,7 @@ public class MapEntryCode
 		// Using entrySet() to get the entry's of the map 
 		Set<Map.Entry<String,Integer>> s = m.entrySet(); 
 		
-		for (Map.Entry<String, Integer> it: s) 
-		{ 
+		for (Map.Entry<String, Integer> it: s) {
 			// Using the getKey to get key of the it element 
 			// Using the getValue to get value of the it element 
 			System.out.println("Before channge of value = " + 

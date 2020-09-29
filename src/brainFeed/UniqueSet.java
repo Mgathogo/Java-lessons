@@ -11,7 +11,7 @@ public class UniqueSet {
 	public static void main(String [] args) {
 		var myname = "michael";
 		System.out.println(myname);
-		List<String> initialList = Arrays.asList("ebay", "paypal", "google", "ebay", "google", "paypay");
+		List<String> initialList = Arrays.asList("ebay", "paypal", "google", "ebay", "google", "paypay","paypal");
 		System.out.printf("\nInitial list : %s%n",initialList);
 	    sortList(initialList);
 //		System.out.println("\nfrom method: "+result);
@@ -21,16 +21,26 @@ public class UniqueSet {
 		//see SetArralyList.java class
 		
 	}
+	//using Type variable as generic type
 
-	public static List<String> sortList(List<String> myList) { // you can substitute List with void
-		Set<String> hashsetList = new HashSet<>(myList);
+	public static <T> List<T> sortList(List<T> myList) { // you can substitute List with void
+		Set<T> hashsetList = new HashSet<>(myList);
 		System.out.printf("\nUnique value using Hashset: %s%n",hashsetList );
-		
-		Set<String> treesetList = new TreeSet<>(myList);
+		Set<T> treesetList = new TreeSet<>(myList);
 		System.out.printf("\nUnique value using Treeset: %s%n",treesetList );
 		return myList;
 		
 	}
+	
+	//explitly declaring generic type
+//	public static List<String> sortList(List<String> myList) { // you can substitute List with void
+//		Set<String> hashsetList = new HashSet<>(myList);
+//		System.out.printf("\nUnique value using Hashset: %s%n",hashsetList );
+//		Set<String> treesetList = new TreeSet<>(myList);
+//		System.out.printf("\nUnique value using Treeset: %s%n",treesetList );
+//		return myList;
+//		
+//	}
 	
 
 }

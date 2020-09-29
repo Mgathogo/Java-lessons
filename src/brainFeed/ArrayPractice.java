@@ -42,6 +42,6 @@ public class ArrayPractice {
 	} 
 
 	// This code is contributed 
-	// by rachana soma 
+	// by Michael Gathogo 
 } 
 

@@ -15,7 +15,7 @@ class InsertionSort {
 			of their current position */
 			while (j >= 0 && arr[j] > key) { 
 				arr[j + 1] = arr[j]; 
-				j = j - 1; //Remember that the j index indentifies all elements. The current position determines
+				j--; //Remember that the j index indentifies all elements. The current position determines
 				           //the next or previous element. Positions are not fixed.
 			} 
 			arr[j + 1] = key;  
@@ -42,5 +42,5 @@ class InsertionSort {
 
 		printArray(arr); 
 	} 
-} /* This code is contributed by Michael. */
+} /* This code is contributed by Michael Gathogo. */
 
