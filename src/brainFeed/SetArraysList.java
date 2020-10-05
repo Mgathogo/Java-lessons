@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
+//java program to filter out duplicates
 public class SetArraysList {
 
 	public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class SetArraysList {
 
 	public static Set<Integer> filteredElements(List<Integer> myArr) {
 		Set<Integer> hashsetList = new HashSet<>(myArr);
-		//System.out.printf("\nUnique value using Hashset: %s%n",hashsetList );
+		System.out.printf("\nUnique value using Hashset: %s%n",hashsetList );
 		System.out.println("\n"+hashsetList);
 		return hashsetList;
 	}
@@ -23,4 +23,3 @@ public class SetArraysList {
 
 }
 
-//Practice this using the return key word

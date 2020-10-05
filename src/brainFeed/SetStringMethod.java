@@ -17,6 +17,7 @@ public class SetStringMethod {
   
         // set method of class Array 
         Array.set(s, 1, "-lives-"); 
+        //Array.set(s, 2, "is-Valuable");
   
         System.out.print("\nAfter Set : "); 
         // printing array 

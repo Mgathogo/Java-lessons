@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-
+//java program to demonstrate streams with optional API
 public class StreamFilter {
 
 	
