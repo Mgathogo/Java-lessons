@@ -20,6 +20,8 @@ public class Asubstring {
 		
 		
 		
+		
+		
 		StringTokenizer tokens = new StringTokenizer(myString,delimeter);
 		
 				// .hasMoreTokens() method checks for more Tokens. 
@@ -28,7 +30,7 @@ public class Asubstring {
 
 					// .nextToken is method is returning next token. 
 					System.out.print(tokens.nextToken("")); 
-		
+				System.out.println("\n\nAnd most of all have patience, Rome was not build in a single day!");
 	}
 	
 }
