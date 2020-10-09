@@ -8,7 +8,7 @@ public class ArrayPractice {
 			int[] leftMax = new int[n]; 
 			leftMax[0] = Integer.MIN_VALUE; 
 
-			// Fill leftMax[]1..n-1] 
+			// Fill leftMax[]1..n] 
 			for (int i = 1; i < n; i++) 
 				leftMax[i] = Math.max(leftMax[i - 1], arr[i - 1]); 
 					
@@ -39,6 +39,9 @@ public class ArrayPractice {
 			int n = arr.length; 
 			System.out.println("Index of the element is " + 
 			findElement(arr, n)); 
+			
+			System.out.println(Integer.MAX_VALUE);
+			System.out.println(Integer.MIN_VALUE);
 	} 
 
 	// This code is contributed 

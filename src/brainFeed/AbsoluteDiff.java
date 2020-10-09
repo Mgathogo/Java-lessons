@@ -17,7 +17,8 @@ class AbsoluteDiff {
 			minEle = Math.min(minEle, arr[i]); 
 			maxEle = Math.max(maxEle, arr[i]); 
 		} 
-
+		System.out.print("Min element is: "+minEle);
+		System.out.print("\nMax element is: "+maxEle);
 		return (maxEle - minEle); 
 	} 
 
@@ -26,7 +27,9 @@ class AbsoluteDiff {
 	{ 
 		int[] arr = { 2, 1, 5, 3 }; 
 		int n = arr.length; 
-		System.out.print(maxAbsDiff(arr, n)); 
+		System.out.print("\nThe absolute difference is: "+maxAbsDiff(arr, n)); 
+		
+		
 	} 
 } 
 //code provided by Michael Gathogo
