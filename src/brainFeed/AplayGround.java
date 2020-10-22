@@ -3,6 +3,15 @@ package brainFeed;
 public class AplayGround {
 	 
 	public static void main(String[] args) throws InterruptedException {
+		chosefruit();
+		System.out.println("\nskipped out non-fruit choice");
+		System.out.println("\nneuro transmitters manufacturing and rewiring of the brain");
+		
+		
+		
+	}
+
+	public static void chosefruit() throws InterruptedException {
 		String [] fruitArray = {"Apple", "banana","oranges", "watermelon", "eggs", "pizza"};
 
 		for(String fruit:fruitArray) {
@@ -12,11 +21,6 @@ public class AplayGround {
 			System.out.println(fruit);
 			
 		}
-		System.out.println("\nskipped out non-fruit choice");
-		System.out.println("\nneuro transmitters manufacturing and rewiring of the brain");
-		
-		
-		
 	}
 
 }

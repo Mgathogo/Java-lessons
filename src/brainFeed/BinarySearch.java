@@ -7,7 +7,7 @@ class BinarySearch {
 	static int binarySearch(int arr[], int l, int r, int x) {
 	 
 		if (r >= l) { 
-			int mid = l + (r - l) / 2; 
+			int mid = l + (r - l) / 2; //let's assume 1+(4-0)=4 is the length
 			//notice the use of nested ifs. switch case can be used here as well. Try it.
 			// If the element is present at the 
 			// middle itself 

@@ -10,8 +10,9 @@ public class UniqueSet {
 	
 	public static void main(String [] args) {
 		var myname = "michael";
-		System.out.println(myname);
+		System.out.println(myname+"\n");
 		List<String> initialList = Arrays.asList("ebay", "paypal", "google", "ebay", "google", "paypay","paypal");
+		System.out.println("regular println"+initialList);
 		System.out.printf("\nInitial list : %s%n",initialList);
 	    sortList(initialList);
 //		System.out.println("\nfrom method: "+result);
@@ -27,7 +28,7 @@ public class UniqueSet {
 		Set<T> hashsetList = new HashSet<>(myList);
 		System.out.printf("\nUnique value using Hashset: %s%n",hashsetList );
 		Set<T> treesetList = new TreeSet<>(myList);
-		System.out.printf("\nUnique value using Treeset: %s%n",treesetList );
+		//System.out.printf("\nUnique value using Treeset: %s",treesetList );
 		return myList;
 		
 	}
