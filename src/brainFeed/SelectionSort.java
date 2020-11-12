@@ -11,8 +11,8 @@ class SelectionSort
 		for (int i = 0; i < n-1; i++) {//When targeting all the element the last one is -1 but for size just length 
 		 
 			// Find the minimum element in unsorted array 
-			int min_idx = i; 
-			for (int j = i+1; j < n; ++j)//J starts at index 1 all the way to the last element 
+			int min_idx = i, j=i+1; 
+			for ( j = i+1; j < n; ++j)//J starts at index 1 all the way to the last element 
 				if (arr[j] < arr[min_idx])
 					min_idx = j; 
 			//the inner loop checks for the minimum index all the way to the end, then it swaps with the current min index

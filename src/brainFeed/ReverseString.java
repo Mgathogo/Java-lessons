@@ -8,7 +8,7 @@ public class ReverseString {
 	        System.out.println("Enter string to reverse:");
 	        
 	        Scanner read = new Scanner(System.in);
-	        String str = read.nextLine();
+	        String str = read.nextLine(); //this is a method to tap in to the variable
 	        String reverse = "";
 	        
 	        
@@ -17,7 +17,7 @@ public class ReverseString {
 	            reverse +=str.charAt(i);
 	        }
 	        
-	        System.out.println("Reversed string is:");
+	        System.out.print("Reversed string is: ");
 	        System.out.println(reverse);
 	        
 	        read.close();

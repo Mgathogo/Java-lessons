@@ -4,8 +4,9 @@ public class AplayGround {
 	 
 	public static void main(String[] args) throws InterruptedException {
 		chosefruit();
-		System.out.println("\nskipped out non-fruit choice");
-		System.out.println("\nneuro transmitters manufacturing and rewiring of the brain");
+		System.out.println("\nskipped out non-fruit choice\n");
+		System.out.println("Biden is going to be the next president of the United States!!!\n");
+		System.out.println("Trumpism has come to an ubrupt end, Thanks God!!!");
 		
 		
 		

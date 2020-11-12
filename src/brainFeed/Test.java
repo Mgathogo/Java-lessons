@@ -20,7 +20,7 @@ public class Test
 		
 		System.out.println(str); 
 		LocalDateTime now = LocalDateTime.now();
-		System.out.println(now);
+		System.out.println("Biden is winning on this date: "+now);
 	} 
 //	public static int count(String [] words, int count) {
 //		for(int i=0; i< words.length; i++) {

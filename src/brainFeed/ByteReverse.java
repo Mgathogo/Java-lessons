@@ -11,9 +11,10 @@ public class ByteReverse {
 
 	public static String reverseByte(String str) {
 		byte [] strArr =str.getBytes();
+		int len = strArr.length;
 		byte [] results = new byte[str.length()];
-		for(int i=0; i<strArr.length; i++) {
-			results[i] = strArr[strArr.length-i-1];//The minus i and 1 is for targeting the last element and moving to left
+		for(int i=0; i<len; i++) {
+			results[i] = strArr[len-i-1];//The minus i and 1 is for targeting the last element and moving to left
 		}
 		return new String(results);
 	}

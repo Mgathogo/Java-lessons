@@ -11,7 +11,7 @@ public class TryWithResources {
 		System.out.println();
 		//auto-closable try with resources
 		try(BufferedReader reader = new BufferedReader(new StringReader("Hello Michael Keep on improving and growing, this is awesome!"));
-				StringWriter writer = new StringWriter();) {
+				StringWriter writer = new StringWriter()) {
 			
 			
 			writer.write(reader.readLine());

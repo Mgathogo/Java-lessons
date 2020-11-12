@@ -5,7 +5,7 @@ public class ReversingRecursively {
     
         String blogName = "revihca remmargorp llufsseccuS a leahciM";
         String name = "Michael Gathogo";
-        String blog = "dlog";
+        String blog = "blog";
        System.out.println( blog.substring(1)+blog.charAt(0));
         
         

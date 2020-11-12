@@ -3,6 +3,7 @@ package brainFeed;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 
@@ -11,7 +12,8 @@ public class UniqueSet {
 	public static void main(String [] args) {
 		var myname = "michael";
 		System.out.println(myname+"\n");
-		List<String> initialList = Arrays.asList("ebay", "paypal", "google", "ebay", "google", "paypay","paypal");
+		String [] appsArr = {"ebay","paypa","google","ebay","google","paypay","paypal"}; 
+		List<String> initialList = new ArrayList<>( Arrays.asList(appsArr));
 		System.out.println("regular println"+initialList);
 		System.out.printf("\nInitial list : %s%n",initialList);
 	    sortList(initialList);
@@ -27,7 +29,7 @@ public class UniqueSet {
 	public static <T> List<T> sortList(List<T> myList) { // you can substitute List with void
 		Set<T> hashsetList = new HashSet<>(myList);
 		System.out.printf("\nUnique value using Hashset: %s%n",hashsetList );
-		Set<T> treesetList = new TreeSet<>(myList);
+		//Set<T> treesetList = new TreeSet<>(myList);
 		//System.out.printf("\nUnique value using Treeset: %s",treesetList );
 		return myList;
 		

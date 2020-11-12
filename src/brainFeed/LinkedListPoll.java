@@ -1,6 +1,6 @@
 package brainFeed;
 
-//Java code to demonstrate the working 
+//Java code to demonstrate the working of objects
 //of poll() in linked list 
 import java.util.*; 
 public class LinkedListPoll { 
@@ -15,7 +15,9 @@ public static void main(String[] args)
 		list.add("Geekies"); 
 		list.add(4); 
 		list.add("Geeks"); 
-		list.add(8); 
+		list.add(8);
+		list.add(false);
+		list.add(true);
 
 		// printing the list 
 		System.out.println("The initial Linked List is : " + list); 

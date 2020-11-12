@@ -4,17 +4,19 @@ package brainFeed;
 
 public class StringToChar { 
 
-	public static void main(String args[]) 
-	{ 
-		String str = "GeeksForGeeks"; 
+	public static void main(String args[]) {
+	
+		String str = "BlackLivesMatter"; 
+		int len = str.length();
 		//char[] ch1 =str.toCharArray();
 
 		// Creating array of string length 
-		char[] ch = new char[str.length()]; 
+		char[] ch = new char[len]; 
 
 		// Copy character by charcter into array 
 		System.out.println("So cool!\n");
-		for (int i = 0; i < str.length(); i++) { 
+		
+		for (int i = 0; i < len; i++) { 
 			ch[i] = str.charAt(i);
 			//ch1[i] = str.charAt(i);
 			

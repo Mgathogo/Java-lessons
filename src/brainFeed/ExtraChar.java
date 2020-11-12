@@ -1,12 +1,11 @@
-// Java program to find extra character in one 
+// Java program to find extra character in two chars 
 // string 
 package brainFeed;
 
-class ExtraChar 
-{ 
-
-static char findExtraCharcter(char []strA, char[] strB) 
-{ 
+class ExtraChar {
+ 
+static char findExtraCharcter(char []strA, char[] strB) {
+ 
 	// store string values in map 
 	int[] m1 = new int[256]; 
 
@@ -40,4 +39,4 @@ public static void main(String[] args)
 	} 
 } 
 
-// This code is contributed by 29AjayKumar 
+// This code is contributed by michael 

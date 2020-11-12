@@ -9,7 +9,7 @@ public class UniqueElements {
         // Creates an empty hashset 
         HashSet<Integer> set = new HashSet<>();
    
-        // Traverse the input array, no need to check if set has num
+        // Traverse the input array, no need to check if set contains num
         for (Integer num: arr) {
         
             	set.add(num); 
@@ -25,8 +25,9 @@ public class UniqueElements {
     	
         int arr[] = {10, 5, 3, 4, 3, 5, 6};
         
+        HashSet<Integer> result = printDistinct(arr);
        
-        System.out.println(printDistinct(arr)); 
+        System.out.println(result); 
         
         
         
